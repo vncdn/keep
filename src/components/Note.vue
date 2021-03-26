@@ -49,7 +49,8 @@ export default {
   cursor: default;
   transition: $transition;
   overflow-wrap: break-word;
-
+  overflow: hidden!important;
+  max-height: 200px!important;
   &:hover,
   &:focus {
     box-shadow: $shadow;
